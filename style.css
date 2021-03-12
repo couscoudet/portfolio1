@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 500px;
+    background-color: white;
+    border: solid 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #1c1d25;
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 10px;
+    width: 50px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li {
+    width: 200px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0px;
+}
+
+p{
+    margin: 0;
+    font-weight: 200;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 220px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background: rgb(255, 142, 37);
+    cursor: pointer;
+}
+
+.button:active{
+    background: darkgray;
+    color: #808080;
+}
+
+.socials{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-image{
+    height: 60px;
+    margin: 10px;
+}
+
+.sub-section{
+    display: flex; 
+    flex-direction: space-between;
+    padding: 40px;
+}
+
+.information {
+    width: 60%;
+    padding: 20px;
+}
+
+.illustration{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+h2{
+    font-size : 60px;
+    margin-bottom: 30px;
+}
+
+.sub-section p{
+    font-size: 30px;
+}
+
+
+.illustration img{
+    width: 300px;
+}
